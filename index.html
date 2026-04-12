@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IAassiste – Formez vos équipes et automatisez votre entreprise grâce à l'IA. Agence de conseil en automatisation et centre de formation certifié Qualiopi.">
+  <title>IAassiste – Automatisation IA &amp; Formation</title>
+  <link rel="stylesheet" href="css/style.css?v=20260401">
+  <style>
+    .logos-clients { overflow: hidden !important; white-space: nowrap !important; }
+    .logos-clients__track {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      align-items: center !important;
+      gap: 1.5rem !important;
+      width: max-content !important;
+      animation: clients-marquee-inline 28s linear infinite !important;
+    }
+    .logo-client {
+      flex: 0 0 auto !important;
+      min-width: 190px !important;
+      color: #ffffff !important;
+      background: var(--color-cta) !important;
+      border-color: transparent !important;
+    }
+    .logo-client:hover {
+      color: #ffffff !important;
+      background: var(--color-cta-hover) !important;
+      border-color: transparent !important;
+    }
+    .logo-client span {
+      display: block !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+      white-space: nowrap !important;
+    }
+    .logos-clients:hover .logos-clients__track { animation-play-state: paused !important; }
+    @keyframes clients-marquee-inline {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html" class="logo">IAassiste</a>
+      <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false"></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="solutions/index.html">Solutions</a></li>
+        <li><a href="formations/index.html">Formations</a></li>
+        <li><a href="a-propos/index.html">À propos</a></li>
+        <li><a href="references-temoignages/index.html">Références</a></li>
+        <li><a href="blog/index.html">Blog</a></li>
+        <li><a href="faq/index.html">FAQ</a></li>
+        <li><a href="contact/index.html" class="btn btn--nav">Nous contacter</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Formez vos équipes et automatisez votre entreprise grâce à l'IA</h1>
+      <p class="hero__lead">Conseil en automatisation (RPA, assistants, connecteurs) et formations certifiées Qualiopi pour maîtriser l’intelligence artificielle et les outils de productivité.</p>
+      <div class="hero__ctas">
+        <a href="solutions/index.html" class="btn btn--primary">Découvrir nos solutions</a>
+        <a href="formations/index.html" class="btn btn--secondary">Voir nos formations</a>
+      </div>
+    </section>
+
+    <section class="section section--avantages">
+      <h2 class="sr-only">Nos atouts</h2>
+      <div class="avantages">
+        <article class="avantage">
+          <span class="avantage__icon" aria-hidden="true">⏱</span>
+          <h3>Gain de temps</h3>
+          <p>Automatisation des tâches répétitives et des flux métier.</p>
+        </article>
+        <article class="avantage">
+          <span class="avantage__icon" aria-hidden="true">🎓</span>
+          <h3>Expertise</h3>
+          <p>Formations dispensées par des professionnels certifiés.</p>
+        </article>
+        <article class="avantage">
+          <span class="avantage__icon" aria-hidden="true">💰</span>
+          <h3>Financement</h3>
+          <p>Formations éligibles à la prise en charge OPCO/FAF.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--clients">
+      <h2>Ils nous font confiance</h2>
+      <div class="logos-clients">
+        <div class="logos-clients__track">
+          <a href="https://www.supernova-graphik.com/" class="logo-client" target="_blank" rel="noopener noreferrer" title="S.GK – SUPERNOVA GRAPHIK">
+            <img src="https://logo.clearbit.com/supernova-graphik.com" alt="S.GK SUPERNOVA GRAPHIK" width="120" height="48" onerror="this.style.display='none'">
+            <span>S.GK (SUPERNOVA GRAPHIK)</span>
+          </a>
+          <a href="https://www.groupesudouest.com/placeco/" class="logo-client" target="_blank" rel="noopener noreferrer" title="Placéco, Groupe Sud Ouest">
+            <img src="https://logo.clearbit.com/groupesudouest.com" alt="Groupe Sud Ouest" width="120" height="48" onerror="this.style.display='none'">
+            <span>Placéco, Groupe Sud Ouest</span>
+          </a>
+          <a href="https://www.dronecast.fr/" class="logo-client" target="_blank" rel="noopener noreferrer" title="Drone Cast Company">
+            <img src="https://logo.clearbit.com/dronecast.fr" alt="Drone Cast" width="120" height="48" onerror="this.style.display='none'">
+            <span>Drone Cast Company</span>
+          </a>
+          <a href="https://www.mknexus.fr/" class="logo-client logo-client--mknexus" target="_blank" rel="noopener noreferrer" title="MK Nexus – Agence de communication Dijon & Paris" data-href="https://www.mknexus.fr/">
+            <img src="https://logo.clearbit.com/mknexus.fr" alt="MK Nexus" width="120" height="48" onerror="this.style.display='none'">
+            <span>MKnexus</span>
+          </a>
+          <a href="https://bricevince.studio" class="logo-client" target="_blank" rel="noopener noreferrer" title="BRICE&VINCE">
+            <img src="https://logo.clearbit.com/bricevince.studio" alt="BRICE&VINCE" width="120" height="48" onerror="this.style.display='none'">
+            <span>BRICE&amp;VINCE</span>
+          </a>
+          <a href="https://www.supernova-graphik.com/" class="logo-client" target="_blank" rel="noopener noreferrer" title="S.GK – SUPERNOVA GRAPHIK" aria-hidden="true" tabindex="-1">
+            <img src="https://logo.clearbit.com/supernova-graphik.com" alt="" width="120" height="48" onerror="this.style.display='none'">
+            <span>S.GK (SUPERNOVA GRAPHIK)</span>
+          </a>
+          <a href="https://www.groupesudouest.com/placeco/" class="logo-client" target="_blank" rel="noopener noreferrer" title="Placéco, Groupe Sud Ouest" aria-hidden="true" tabindex="-1">
+            <img src="https://logo.clearbit.com/groupesudouest.com" alt="" width="120" height="48" onerror="this.style.display='none'">
+            <span>Placéco, Groupe Sud Ouest</span>
+          </a>
+          <a href="https://www.dronecast.fr/" class="logo-client" target="_blank" rel="noopener noreferrer" title="Drone Cast Company" aria-hidden="true" tabindex="-1">
+            <img src="https://logo.clearbit.com/dronecast.fr" alt="" width="120" height="48" onerror="this.style.display='none'">
+            <span>Drone Cast Company</span>
+          </a>
+          <a href="https://www.mknexus.fr/" class="logo-client logo-client--mknexus" target="_blank" rel="noopener noreferrer" title="MK Nexus – Agence de communication Dijon & Paris" data-href="https://www.mknexus.fr/" aria-hidden="true" tabindex="-1">
+            <img src="https://logo.clearbit.com/mknexus.fr" alt="" width="120" height="48" onerror="this.style.display='none'">
+            <span>MKnexus</span>
+          </a>
+          <a href="https://bricevince.studio" class="logo-client" target="_blank" rel="noopener noreferrer" title="BRICE&VINCE" aria-hidden="true" tabindex="-1">
+            <img src="https://logo.clearbit.com/bricevince.studio" alt="" width="120" height="48" onerror="this.style.display='none'">
+            <span>BRICE&amp;VINCE</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__block">
+        <h3>Contact</h3>
+        <p><a href="tel:+33681212472">+33 6 81 21 24 72</a></p>
+        <p><a href="mailto:contact@iaassiste.fr">contact@iaassiste.fr</a></p>
+        <p><a href="contact/index.html">Prendre rendez-vous</a></p>
+      </div>
+      <div class="footer__block">
+        <h3>Référent handicap</h3>
+        <p>Velasco</p>
+        <p><a href="tel:+33681212472">+33 6 81 21 24 72</a></p>
+        <p><a href="mailto:handicap@iaassiste.fr">handicap@iaassiste.fr</a></p>
+        <p><a href="accessibilite-handicap/index.html">Accessibilité &amp; handicap</a></p>
+      </div>
+
+      <div class="footer__block" style="grid-column: span 2;">
+        <h3>Qualiopi</h3>
+        <p><strong>Certification délivrée par Certifopac.</strong></p>
+        <div style="display: flex; align-items: center; gap: 0.9rem; flex-wrap: nowrap;">
+          <img src="images/badge-qualiopi.png" alt="Certificat Qualiopi" width="220" height="93" style="max-width: 100%; height: auto;">
+          <p style="margin: 0; max-width: 760px; font-size: 0.95rem; line-height: 1.3;">La certification qualité a été délivrée au titre de la ou des catégories d'actions suivantes : actions de formation dans le numérique IA &amp; Automatisation.</p>
+        </div>
+      </div>
+      <div class="footer__legal">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="politique-confidentialite.html">Politique de confidentialité</a>
+        <a href="https://www.iaassiste.fr/reclamation" target="_blank" rel="noopener noreferrer">Réclamation</a>
+      </div>
+    </div>
+    <p class="footer__copy">&copy; 2026 IAassiste. Tous droits réservés.</p>
+  </footer>
+
+  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Gestion des cookies" hidden>
+    <p>Nous utilisons des cookies pour analyser le trafic et améliorer votre expérience. <a href="politique-confidentialite.html">En savoir plus</a>.</p>
+    <div class="cookie-banner__actions">
+      <button type="button" class="btn btn--secondary btn--sm" data-cookie="refuse">Refuser</button>
+      <button type="button" class="btn btn--primary btn--sm" data-cookie="accept">Accepter</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

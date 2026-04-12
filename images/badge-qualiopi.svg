@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Certificat Qualiopi">
+  <title>Certificat Qualiopi  Marque de certification qualit�</title>
+  <rect width="120" height="120" rx="12" fill="#fff" stroke="#003092" stroke-width="3"/>
+  <text x="60" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#003092">Qualiopi</text>
+  <text x="60" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Certification</text>
+  <text x="60" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">qualit�</text>
+</svg>
